@@ -16,13 +16,13 @@ void print_line(int n)
 	{
 		if (n > 0)
 		{
-			putchar('_');
+			_putchar('_');
 		}
 		else
 		{
-			putchar('\n');
+			_putchar('\n');
 		}
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
